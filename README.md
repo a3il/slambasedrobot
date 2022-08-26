@@ -24,6 +24,8 @@ $#In order for the vehicle to move on its center of axis..
 
 We could use an external imu sensor must must of them have less accuracy,,The encoders data cant be fetched locally on raspberry pi sue to some pull up resitor issues.hence we serially send it via arduino to pi.
 
+#the current codes and files have been attached,.client server connections along with a script for fetching the real sense data directly from the pi .
+
 
 ![WhatsApp Image 2022-08-26 at 6 29 45 PM](https://user-images.githubusercontent.com/111580618/186909163-5520d5b8-51ad-486d-85f0-0621640c3ef1.jpeg)
 ![WhatsApp Image 2022-08-26 at 6 29 46 PM](https://user-images.githubusercontent.com/111580618/186909170-53d87aaf-2bbe-42c4-8a1a-73a7ac31caba.jpeg)
