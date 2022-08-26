@@ -12,10 +12,14 @@ This is an ongoing project which has many problems to be solved,We are on protyp
 PROTOTYPE #1
 Curently Desining the kinematics,Issues on the System,
 The vehicle rotates by using slip as as a rotational motion,There are certain design aspects to be foloowed in order to achieve this.
+
 $#In order for the vehicle to move on its center of axis..
 1.The center of mass of the robot must be equal to the center of rotation.
+
 2.The vehicle body must be symmetric,Wheels must be spaced equally on a single axis.
+
 3.Weight must be distributed equally.
+
 4.Tires must be having a constance coefficent of friction.
 
 We could use an external imu sensor must must of them have less accuracy,,The encoders data cant be fetched locally on raspberry pi sue to some pull up resitor issues.hence we serially send it via arduino to pi.
